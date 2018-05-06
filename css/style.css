@@ -135,6 +135,8 @@ main th {
   background-color: #f9f9f5; }
 main td {
   padding-right: 15px !important; }
+main table {
+  width: 100%; }
 main .box_text {
   padding-right: 15px;
   padding-left: 15px; }
@@ -162,11 +164,6 @@ main .pq {
       main .pq .price .price1000 p, main .pq .quan .price1000 p {
         font-style: italic;
         margin-bottom: 0px; }
-        main .pq .price .price1000 p span1, main .pq .quan .price1000 p span1 {
-          color: #e80f66; }
-        main .pq .price .price1000 p span2, main .pq .quan .price1000 p span2 {
-          font-size: 170%;
-          color: #e80f66; }
     main .pq .price .quan_img, main .pq .quan .quan_img {
       width: 49%;
       vertical-align: middle;
@@ -178,6 +175,17 @@ main .pq {
       padding: 17px 0px; }
   main .pq .price {
     border-bottom: 0px; }
+    main .pq .price #span1 {
+      font-size: 80%;
+      color: #e80f66;
+      font-style: italic; }
+    main .pq .price #span2 {
+      font-size: 170%;
+      color: #e80f66;
+      font-style: italic; }
+    main .pq .price #span3 {
+      font-size: 80%;
+      font-style: italic; }
     main .pq .price .price_img {
       width: 49%;
       padding-top: 10px; }
@@ -189,7 +197,8 @@ main .destitle_2 {
   color: #887f69;
   padding: 20px 0px; }
 main #table2 table {
-  margin-top: 20px; }
+  margin-top: 20px;
+  width: 100%; }
 main #table2 .box_text {
   width: 30%;
   vertical-align: middle; }
